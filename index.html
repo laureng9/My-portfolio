@@ -5,22 +5,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, intial-scale=1.0" />
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
     <nav>
         <h2>My Portfolio</h2>
         <ul class="navigation-items">
-            <li>About me</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Contact</li>
-            <li>Test</li>
+            <li><a class="active" href="#about">About me</a></li>
+            <li><a class="active" href="#skills">Skills</a></li>
+            <li><a class="active" href="#projects">Projects</a></li>
+            <li><a class="active" href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <main>
-        <section id="intoduction">
+        <section id="introduction">
             <h1>Lauren Gardner</h1>
             <h2>Software Developer</h2>
         </section>
@@ -96,6 +96,17 @@
                 </p>
             </details>
 
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <form>
+                <label for="emailaddress">Email:</label>
+                <input type="text" id="emailaddress" name="emailaddress">
+                <label for="message">Message:</label>
+                <textarea type="text" id="message" name="message" placeholder="Write something.."></textarea>
+                <input type="submit" value="Submit">
+            </form>
         </section>
     </main>
     <footer>Portfolio of Lauren Gardner</footer>
