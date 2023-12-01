@@ -36,45 +36,80 @@ body {
 }
 
 nav {
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
+    float:
+}
 
-    li {
-        float: left;
-    }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* float: left; */
+}
 
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+nav li {
+    /* float: right; */
+}
 
-    /* Change the link color to #111 (black) on hover */
-    li a:hover {
-        background-color: #111;
-    }
-
-    .active {
-        background-color: #04AA6D;
-    }
+nav li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
 
 }
 
-details {}
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #111;
+}
+
+
+nav.active {
+    background-color: #04AA6D;
+}
+
+
+
+details {
+    display: inline-grid;
+    justify-content: space-evenly;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.project-title {
+    text-align: center;
+}
+
 
 summary {}
 
-footer {}
+form {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    flex-wrap: wrap;
+}
+
+footer {
+    text-align: center;
+}
 
 section {}
 
