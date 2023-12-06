@@ -5,17 +5,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, intial-scale=1.0" />
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
     <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
     <nav>
-        <h2>My Portfolio</h2>
+        <h2 id="profileHeading">My Portfolio</h2>
         <ul>
-            <!-- <li class="left">
-                <h2>My Portfolio</h2>
-            </li> -->
-            <!-- <li><a class="active" href="#">Home</a></li> -->
             <li><a href="#about">About me</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -24,6 +21,7 @@
     </nav>
 
     <main>
+
         <section id="introduction">
             <h1>Lauren Gardner</h1>
             <h3>Software Developer</h3>
@@ -36,6 +34,7 @@
                 <div class="about-me-image">
                     <img src="Images/profilePicture.jpg" alt="An image of Lauren Gardner" />
                 </div>
+
                 <div class="about-me-text-container">
                     <section>
                         <p>
@@ -60,36 +59,41 @@
                             thrilling phase of my professional journey.</p>
                     </section>
                 </div>
-            </div>
 
+            </div>
         </section>
+
         <section class="skills">
             <h2>Skills</h2>
+
             <div class="skill-set">
-                <img src="Images/git.png" alt="gitlogo">
+                <i class="skillIcon lni lni-git"></i>
                 <p>Git</p>
             </div>
+
             <div class="skill-set">
-                <img src="Images/github.png" alt="github logo">
+                <i class="skillIcon lni lni-github"></i>
                 <p>GitHub</p>
             </div>
+
             <div class="skill-set">
-                <img src="Images/html5.png" alt="html logo">
+                <i class="skillIcon lni lni-html5"></i>
                 <p>HTML</p>
             </div>
+
             <div class="skill-set">
-                <img src="Images/css.png" alt="css logo">
+                <i class="skillIcon lni lni-css3"></i>
                 <p>CSS</p>
             </div>
+
             <div class="skill-set">
-                <img src="Images/js.png" alt="JavaScript logo">
+                <i class="skillIcon lni lni-javascript"></i>
                 <p>JavaScript</p>
             </div>
         </section>
 
         <section class="projects">
             <h2 id="project-heading">Projects</h2>
-
 
             <div class="project">
                 <img src="images/folderIcon.png" alt="An image of the webpage for website design system project"
@@ -99,14 +103,12 @@
                 </details>
             </div>
 
-
             <div class="project">
                 <img src="Images/folderIcon.png" alt="An image of the cheatsheet for HTML tables project"
                     class="project-image" />
                 <h3 class="project-title">Building own cheat sheet for HTML Tables</h3>
                 <details class="project-text">In this project I built a cheat sheet for HTML tables.</details>
             </div>
-
 
             <div class="project">
                 <img src="Images/folderIcon.png" alt="An image of company homepage project" class="project-image" />
@@ -116,7 +118,6 @@
                     homepage.</details>
             </div>
 
-
             <div class="project">
                 <img src="Images/folderIcon.png" alt="An image of club website project" class="project-image" />
                 <h3 class="project-title">Responsive Club Website</h3>
@@ -124,11 +125,15 @@
                     when size of screen is
                     adjusted.</details>
             </div>
-
         </section>
 
         <section class="contacts">
             <h2>Contact</h2>
+            <i class="contactIcon lni lni-linkedin-original"></i>
+            <i class="contactIcon lni lni-github-original"></i>
+            <i class="contactIcon lni lni-envelope"></i>
+            <i class="contactIcon lni lni-instagram-original"></i>
+
             <form>
                 <label for="emailaddress">Email:</label>
                 <input type="text" id="emailaddress" name="emailaddress">
@@ -137,8 +142,11 @@
                 <input type="submit" value="Submit">
             </form>
         </section>
+
     </main>
+
     <footer>Portfolio of Lauren Gardner</footer>
+
 </body>
 
 </html>
