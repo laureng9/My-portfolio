@@ -11,44 +11,57 @@
 <body>
     <nav>
         <h2>My Portfolio</h2>
-        <ul class="sidenav">
-            <li><a class="active" href="#about">About me</a></li>
-            <li><a class="active" href="#skills">Skills</a></li>
-            <li><a class="active" href="#projects">Projects</a></li>
-            <li><a class="active" href="#contact">Contact</a></li>
+        <ul>
+            <!-- <li class="left">
+                <h2>My Portfolio</h2>
+            </li> -->
+            <!-- <li><a class="active" href="#">Home</a></li> -->
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <main>
         <section id="introduction">
             <h1>Lauren Gardner</h1>
-            <h2>Software Developer</h2>
+            <h3>Software Developer</h3>
         </section>
 
         <section class="about-me">
             <h2>About Me</h2>
 
             <div class="about-me-container">
-                <img src="Images/profilePicture.jpg" alt="An image of Lauren Gardner" class="profile-picture" />
+                <div class="about-me-image">
+                    <img src="Images/profilePicture.jpg" alt="An image of Lauren Gardner" />
+                </div>
+                <div class="about-me-text-container">
+                    <section>
+                        <p>
+                            Welcome to my portfolio! Having spent seven fulfilling years as an educator, zI embarked on
+                            a
+                            transformative journey during Covid-19 lockdown in 2020 when I discovered a newfound
+                            interest in
+                            coding. As the world slowed down, my curiosity for technology accelerated, leading me to
+                            immerse
+                            myself in the fascinating realm of coding.
+                        </p>
+                        <p>
+                            While balancing part-time teaching responsibilities, 2022 marked the beginning of my formal
+                            coding education through Codecademy. Fast forward to July 2023, I made the pivotal decision
+                            to
+                            bid farewell to teaching and fully commit to the world of coding. This portfolio serves as a
+                            testament to my transition, capturing the fusion of my extensive teaching background with
+                            the
+                            evolving skills and passion I've cultivated on my coding odyssey.
+                        </p>
+                        <p>Join me as I demonstrate the harmonious blend of knowledge and technology in this
+                            thrilling phase of my professional journey.</p>
+                    </section>
+                </div>
             </div>
-            <div class="about-me-text-cointainer">
 
-                <p class="text">
-                    Welcome to my portfolio! Having spent seven fulfilling years as an educator, I embarked on a
-                    transformative journey during Covid-19 lockdown in 2020 when I discovered a newfound interest in
-                    coding. As the world slowed down, my curiosity for technology accelerated, leading me to immerse
-                    myself in the fascinating realm of coding.
-                </p>
-                <p class="text">
-                    While balancing part-time teaching responsibilities, 2022 marked the beginning of my formal
-                    coding education through Codecademy. Fast forward to July 2023, I made the pivotal decision to
-                    bid farewell to teaching and fully commit to the world of coding. This portfolio serves as a
-                    testament to my transition, capturing the fusion of my extensive teaching background with the
-                    evolving skills and passion I've cultivated on my coding odyssey.
-                </p>
-                <p class="text">Join me as I demonstrate the harmonious blend of knowledge and technology in this
-                    thrilling phase of my professional journey.</p>
-            </div>
         </section>
         <section class="skills">
             <h2>Skills</h2>
@@ -73,42 +86,40 @@
                 <p>JavaScript</p>
             </div>
         </section>
+
         <section class="projects">
-            <h2>Projects</h2>
-            <div>
-                <h3 class="project-title">Website Design System</h3>
-            </div>
+            <h2 id="project-heading">Projects</h2>
+
+
             <div class="project">
-                <img src="images/Website design system screenshot.png"
-                    alt="An image of the webpage for website design system project" class="project-image" />
+                <img src="images/folderIcon.png" alt="An image of the webpage for website design system project"
+                    class="project-image" />
+                <h3 class="project-title">Website Design System</h3>
                 <details class="project-text"> In this project I built my own basic design system for a website.
                 </details>
             </div>
 
-            <div>
-                <h3 class="project-title">Building own cheat sheet for HTML Tables</h3>
-            </div>
+
             <div class="project">
-                <img src="Images/Cheatsheet for HTML tables screenshot.png"
-                    alt="An image of the cheatsheet for HTML tables project" class="project-image" />
+                <img src="Images/folderIcon.png" alt="An image of the cheatsheet for HTML tables project"
+                    class="project-image" />
+                <h3 class="project-title">Building own cheat sheet for HTML Tables</h3>
                 <details class="project-text">In this project I built a cheat sheet for HTML tables.</details>
             </div>
-            <div>
-                <h3 class="project-title">Company Homepage</h3>
-            </div>
+
+
             <div class="project">
-                <img src="Images/Company Homepage Screenshot.png" alt="An image of company homepage project"
-                    class="project-image" />
+                <img src="Images/folderIcon.png" alt="An image of company homepage project" class="project-image" />
+                <h3 class="project-title">Company Homepage</h3>
                 <details class="project-text"> In this project I used a flexbox to design and build a layout for a
                     company's
                     homepage.</details>
             </div>
-            <div>
-                <h3 class="project-title">Responsive Club Website</h3>
-            </div>
+
+
             <div class="project">
-                <img src="Images/Responsive Club Website Screenshot.png" alt="An image of club website project"
-                    class="project-image" />
+                <img src="Images/folderIcon.png" alt="An image of club website project" class="project-image" />
+                <h3 class="project-title">Responsive Club Website</h3>
                 <details class="project-text">In this project I built my own club group page that dynamically responds
                     when size of screen is
                     adjusted.</details>
