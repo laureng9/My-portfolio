@@ -189,6 +189,12 @@ nav ul.right {
 .skillIcon {
     font-size: 60px;
     color: black;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill-set:hover {
+    transform: scale(1.1);
+    /* Increase the size of the image on hover */
 }
 
 .skill-set {
@@ -225,8 +231,14 @@ nav ul.right {
 .project-image {
     max-width: 100%;
     height: auto;
+
+    transition: transform 0.3s ease-in-out;
 }
 
+.project:hover .project-image {
+    transform: scale(1.1);
+    /* Increase the size of the image on hover */
+}
 
 .project-text {
     text-align: center;
